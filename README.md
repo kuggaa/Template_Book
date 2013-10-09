@@ -10,6 +10,7 @@ This is template of SRS document which correspond to IEEE Std 830-1998 (ref IEEE
 ./template/ - содержит шаблон для SRS
 
 ├── graphics - картинки и.т.д.
+
 │   └── company_logo.png
 
 ├── includes - главы и прочие включения и.т.д.

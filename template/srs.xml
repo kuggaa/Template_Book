@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE book [
-<!ENTITY % entities SYSTEM "names.entities" >
+<!ENTITY % entities SYSTEM "includes/names.entities" >
 %entities;
 ]>
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>

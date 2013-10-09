@@ -18,7 +18,6 @@ This is template of SRS document which correspond to IEEE Std 830-1998 (ref IEEE
 │   └── srs_scenario.scenarios
 └── srs.xml - основной документ
 
-
 -Лицензия-
 Все материалы распространяются на условиях лицензии [Creative Commons BY-SA 3.0] http://creativecommons.org/licenses/by-sa/3.0/deed.ru
 Полный текст лиценции находится в файле COPYING

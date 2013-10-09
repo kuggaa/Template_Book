@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book [
+<!ENTITY % entities SYSTEM "names.entities" >
+%entities;
+]>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbookxi.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- © Лаборатория 50, 2013 -->
+<!-- Распространяется на правах лицензии CC BY-SA 3.0 -->
+<book xml:lang="ru"
+    xmlns="http://docbook.org/ns/docbook" 
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+    
+    <info>
+        <title>Самая лучшая программа (&short_name;)</title>
+        <subtitle>
+            Спецификация требований к программному обеспечению
+        </subtitle>
+        <authorgroup>
+            <author>
+                <orgname>
+                    <inlinemediaobject>
+                        <imageobject>
+                            <imagedata align="center" fileref="graphics/company_logo.png"/>
+                        </imageobject>
+                    </inlinemediaobject>
+                    <para>ОАО «Счастье»</para>
+                </orgname>
+            </author>
+        </authorgroup>
+        <releaseinfo > ОАО «Счастье»
+            Российская Федерация, 190000 Магадан
+            ул. Счастливая дом 1, корп.1, литера А
+        </releaseinfo>
+        <editor>
+            <personname>
+                <firstname>Владимир</firstname>
+                <surname>Ленин</surname>
+            </personname>
+        </editor>
+    </info>   
+    
+    <preface  label="История переизданий">
+        <revhistory>
+            <revision>
+                <revnumber> 0.1</revnumber>
+                <date>Октябрь 2013</date>
+                <authorinitials>Ленин В.И.</authorinitials>
+                <revremark>Описание изменений</revremark>
+            </revision>
+            <revision>
+                <revnumber> 0.2</revnumber>
+                <date>Октябрь 2013</date>
+                <authorinitials>Ленин В.И.</authorinitials>
+                <revremark>Описание изменений</revremark>
+            </revision>
+        </revhistory>
+    </preface>
+    
+    <xi:include href="includes/introduction.xml"/>    
+    <xi:include href="includes/overall_description.xml"/>    
+    <xi:include href="includes/specific_requirements.xml"/>    
+    <!--<xi:include href="appendixes.xml"/> -->
+    
+    <!--    <chapter>
+        <title><emphasis>Заголовок главы</emphasis></title>
+        <section >
+        <title><emphasis>Заголовок пункта</emphasis></title>
+        <para><emphasis>Основной текст</emphasis></para>
+        </section>   
+        </chapter>-->
+    
+    <!--    <glossary>
+        <glossdiv><title>E</title>
+        <glossentry xml:id="xml"><glossterm>Extensible Markup Language</glossterm>
+        <acronym>XML</acronym>
+        <glossdef>
+        <para>Some reasonable definition here.</para>
+        <glossseealso otherterm="xml">XML</glossseealso>
+        </glossdef>
+        </glossentry>
+        </glossdiv>
+        </glossary>-->    
+</book>

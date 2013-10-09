@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE chapter [
+<!ENTITY % entities SYSTEM "names.entities" >
+%entities;
+]>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- © Лаборатория 50, 2013 -->
+<!-- Распространяется на правах лицензии CC BY-SA 3.0 -->
+<chapter xml:lang="ru"
+    xmlns="http://docbook.org/ns/docbook"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+    
+    <title>Специфичные требования</title>
+    <section >
+        <title>Внешние интрефейсы</title>
+        <para>Основной текст</para>
+    </section> 
+    <section >
+        <title>Функции</title>
+        <para>Основной текст</para>
+<!--        These include:
+        Validity checks on the inputs
+        Exact sequence of operations
+        Responses to abnormal situation, including
+        Overflow
+        Communication facilities
+        Error handling and recovery
+        Effect of parameters
+        Relationship of outputs to inputs, including
+        Input/Output sequences
+        Formulas for input to output conversion-->
+    </section> 
+    <section >
+        <title>Требования к производительности</title>
+        <para>Основной текст</para>
+    </section>
+    <section >
+        <title>Требования к базе данных</title>
+        <para>Основной текст</para>
+    </section>
+    <section >
+        <title>Конструктивные ограничения</title>
+        <para>Основной текст</para>
+    </section>
+    <section >
+        <title>Свойства программного обеспечения</title>
+        <para>Основной текст</para>
+        <section >
+            <title>Требования к надежности</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Требования к готовности</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Требования к защищенности</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Требования к сопровождаемости</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Требования к тестируемости</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Требования к практичности</title>
+            <para>Основной текст</para>
+        </section>
+    </section>
+    <section >
+        <title>Организационные и специфические требования</title>
+        <para>Основной текст</para>
+        <section >
+            <title>Классы пользователей</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Режимы</title>
+            <para>Основной текст</para>
+        </section>
+        <section >
+            <title>Объекты</title>
+            <para>Основной текст</para>
+        </section>
+    </section>
+    
+</chapter>

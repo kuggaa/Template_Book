@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter [
-<!ENTITY % entities SYSTEM "names.entities" >
+<!DOCTYPE book [
+<!ENTITY % entities SYSTEM "names.entities">
 %entities;
 ]>
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- © Лаборатория 50, 2013 -->
-<!-- Распространяется на правах лицензии CC BY-SA 3.0 -->
 <chapter xml:lang="ru"
     xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
     
-    <title>Общее описание</title>
+    <title id="overall">Общее описание</title>
     <section >
         <title>Перспектива продукта</title>
         <para>Основной текст</para>
@@ -35,6 +33,6 @@
     <section >
         <title>Отложенные требования</title>
         <para>Основной текст</para>
-    </section> 
+    </section>
     
 </chapter>

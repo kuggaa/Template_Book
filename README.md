@@ -3,35 +3,33 @@
 Шаблон Спецификации требований программного обеспечения, соответствующий стандарту IEEE Std 830-1998 (см. IEEE 12207) 
 в формате Docbook 5.
 
-This is template of SRS document which correspond to IEEE Std 830-1998 (ref IEEE 12207) in DocBook 5 format.
+This is template of SRS document which correspond to IEEE Std 830-1998 (ref IEEE 12207) in DocBook 5 format on Russian language.
 
 -Описание-
 
-./template/ - содержит шаблон для SRS
+./template/ - содержит шаблон для SRS (root folder with template)
 
-├── graphics - картинки и.т.д.
+├── graphics - картинки и.т.д. (for pics and any graphic data)
 
 │   └── company_logo.png
 
-├── includes - главы и прочие включения и.т.д.
+├── includes - главы и прочие включения и.т.д. (for chapters, section and e.t.c.)
 
 │   ├── introduction.xml
+
+│   ├── names.entities - переменные для подстановки (variables)
 
 │   ├── overall_description.xml
 
 │   └── specific_requirements.xml
 
-├── names.entities - переменные для подстановки
+├── settings - настройки (for settings)
 
-├── settings - настройки для author xml (конфиги FOP'а и готовый сценарий для трансформации в PDF)
+│   └── srs_scenario.scenarios - сценарий для трансформации в PDF (settings for transformation to PDF in XML Author format)
 
-│   ├── fop-config.xml
+└── srs.xml - основной документ (main document)
 
-│   └── srs_scenario.scenarios
-
-└── srs.xml - основной документ
-
--Лицензия-
+-Лицензия-(License information)
 
 Все материалы распространяются на условиях лицензии [Creative Commons BY-SA 3.0] http://creativecommons.org/licenses/by-sa/3.0/deed.ru
 Полный текст лиценции находится в файле COPYING

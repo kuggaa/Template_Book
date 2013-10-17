@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!ENTITY short_name "<acronym>СЛП</acronym>">
+<!ENTITY name "<acronym>XXX</acronym>">
+<!ENTITY full_name "<acronym>XXXXX</acronym>">
+<!ENTITY main_header "<acronym>XXXXXXXXXXXXXXXXXXXXXXXXXX</acronym>">
+<!ENTITY supplier "<acronym>ОАО «Исполнитель»</acronym>">
+<!ENTITY full_supplier "<acronym>ОАО «Исполнитель»</acronym>">
+<!ENTITY address_supplier "<acronym>190000 Адрес Исполнителя</acronym>">
+<!ENTITY customer "<acronym>ОАО «Заказчик»</acronym>">
+<!ENTITY full_customer "<acronym>ОАО «Заказчик»</acronym>">
+<!ENTITY address_customer "<acronym>190000 Адрес Заказчика</acronym>">
+<!ENTITY contract "<acronym>Договор номер № XXXX от X октября XXXX года</acronym>">
+<!ENTITY tech_assign "<acronym>Техническое задание на разработку XXXXXX от XX сентября XXXX года</acronym>">
+

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE chapter [
-<!ENTITY % entities SYSTEM "names.entities" >
+<!DOCTYPE book [
+<!ENTITY % entities SYSTEM "names.entities">
 %entities;
 ]>
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!-- © Лаборатория 50, 2013 -->
-<!-- Распространяется на правах лицензии CC BY-SA 3.0 -->
 <chapter  xml:lang="ru"
     xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
@@ -14,23 +12,33 @@
     <title>Введение</title>
     <section >
         <title>Назначение</title>
-        <para>Основной текст</para>
+        <para> Данная спецификация предназначена для определения требований к программному обеспечению &name; являющегося составной частью 
+            &name;  и разрабатываемому в рамках следующих нормативных документов: &contract; и &tech_assign; между &supplier; и &customer;.
+        </para>
+        <para>
+            Спецификация подлежит использованию техническими специалистами &supplier;, техническими специалистами и конечными пользователями &customer; 
+            в процессе согласования требований к ПО и должна быть утверждена обеими сторонами в окончательной редакции.
+        </para>
     </section> 
     <section >
         <title>Область применения</title>
-        <para>Основной текст</para>
-    </section>   
+        <para>
+            <emphasis>Вставить свое</emphasis>
+        </para>
+    </section>
     <section >
         <title>Определения, сокращения и аббревиатура</title>
-        <para>Основной текст</para>
+        <para> Используемые в документе сокращения представлены в <emphasis><xref linkend="glossary"/></emphasis>.</para>
     </section>   
     <section >
         <title>Ссылки</title>
-        <para>Основной текст</para>
+        <para>&tech_assign;</para>
+        <para>&overview_espd;</para>
     </section> 
     <section >
         <title>Обзор документа</title>
-        <para>Основной текст</para>
+        <para> <emphasis><xref linkend="overall"/></emphasis> содержит  общее описание требований и основных ограничений &name;</para>
+        <para> <emphasis><xref linkend="specific"/></emphasis> детализирует  и расширяет <emphasis><xref linkend="overall"/></emphasis> </para>
     </section>   
     
 </chapter>
